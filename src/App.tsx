@@ -36,13 +36,6 @@ function App() {
       preview: "🌳",
       link: "https://simranjeet567.github.io/TreeVisualizer/" 
     },
-    {
-      title: "EzyBuy",
-      description: "EzyBuy is a MERN stack app , designed to allow users to browse products, add them to a cart, and make secure purchases online. The platform includes features such as user authentication, product management, shopping cart functionality, order processing, and admin dashboard.",
-      tags: ["React", "Express.js", "Node.js", "MongoDB"],
-      preview: "🛍️",
-      link: "https://ecommerce-demo.com/"
-    },
      {
       title: "DoItNow",
       description: "DoItNow app helps users manage tasks efficiently. It typically includes features like task creation, deadlines & reminders, priority levels, tags & categories, and recurring tasks.",
@@ -155,8 +148,14 @@ function App() {
 
       {/* Coding Profile */}
      <section className="max-w-4xl mx-auto px-6 py-8">
-  <h3 className="text-lg font-semibold text-gray-900 mb-6">Coding Profile</h3>
+  <h3 className="text-lg font-semibold text-gray-900 mb-6">Links</h3>
   <div className="flex gap-4"> {/* Flex container for horizontal alignment */}
+    <button className="flex items-center gap-1 px-3 py-1 bg-gray-900 text-white text-sm rounded-md hover:bg-gray-800 transition-colors">
+      <a href="" target="_blank" rel="noopener noreferrer">
+        <ExternalLink size={14} />
+      </a>
+        Resume
+    </button>
     <button className="flex items-center gap-1 px-3 py-1 bg-gray-900 text-white text-sm rounded-md hover:bg-gray-800 transition-colors">
       <a href="https://leetcode.com/u/Simrnjeet/" target="_blank" rel="noopener noreferrer">
         <ExternalLink size={14} />
