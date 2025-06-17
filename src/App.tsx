@@ -151,7 +151,7 @@ function App() {
   <h3 className="text-lg font-semibold text-gray-900 mb-6">Links</h3>
   <div className="flex gap-4"> {/* Flex container for horizontal alignment */}
     <button className="flex items-center gap-1 px-3 py-1 bg-gray-900 text-white text-sm rounded-md hover:bg-gray-800 transition-colors">
-      <a href="" target="_blank" rel="noopener noreferrer">
+      <a href="https://drive.google.com/file/d/1ZoP9Fv45osdx6wwjHwG75hNhNLT1vKL-/view?usp=sharing" target="_blank" rel="noopener noreferrer">
         <ExternalLink size={14} />
       </a>
         Resume
